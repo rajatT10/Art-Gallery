@@ -1,0 +1,31 @@
+<div class="middle-box">
+    <div class="custom-card-container">
+        <mat-card style="background-color: inherit;
+        border-radius: 20px;
+        box-shadow: 0px 5px 30px -15px #b82601;">
+            <form class="example-form" [formGroup]="signUpForm">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Name</mat-label>
+                    <input matInput type="text" placeholder="Enter your Name" formControlName="name">
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Enter your email address" formControlName="email">
+                </mat-form-field>
+
+                <mat-form-field class="example-full-width">
+                    <mat-label>Password</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'" placeholder="Enter your password" formControlName="password">
+                </mat-form-field>
+
+                <div style="text-align: -webkit-center;">
+                    <div class="custom-card login-options" target="_blank" rel="noopener">
+                        <span (click)="signUp()">Sign Up</span>
+                    </div>
+            </div>
+            </form>
+            <a [routerLink]="['/signin']">Back to Sign In</a>
+        </mat-card>
+    </div>
+</div>

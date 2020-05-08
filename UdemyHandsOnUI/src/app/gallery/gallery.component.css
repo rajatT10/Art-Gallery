@@ -1,0 +1,8 @@
+.middle-box {
+    padding: 5px;
+    justify-content: center;
+}
+
+::deep .mat-tab-labels {
+    background-color: #61892f;
+}

@@ -1,0 +1,75 @@
+ .website-headline {
+   text-align: center;
+   color: white;
+   justify-content: start;
+   display: flex;
+   font-family: monospace;
+   font-weight: 900;
+   font-size: 50px;
+   padding: 15px;
+   margin: 0px;
+   letter-spacing: 8px;
+ }
+
+ .header-menu {
+   justify-content: space-evenly;
+   display: flex;
+ }
+
+ .header-menu a {
+  cursor: pointer;color: white;
+ }
+
+ a:hover {
+   color: #b82601;
+ }
+
+ p {
+   display: inline-block;
+   overflow: hidden;
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+ .firstLetter {
+   /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+   animation: showup 7s linear;
+ }
+
+ .secondLetter {
+   margin-left: 0px;
+   color: #b82601;
+   animation: slidein 7s linear;
+ }
+
+ @keyframes showup {
+   0% {
+     opacity: 0;
+   }
+   20% {
+     opacity: 0.3;
+   }
+   80% {
+     opacity: 0.6;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+
+ @keyframes slidein {
+   0% {
+     margin-left: -400px;
+   }
+   20% {
+     margin-left: -800px;
+   }
+   35% {
+     margin-left: 10px;
+   }
+   100% {
+     margin-left: 0px;
+   }
+ }

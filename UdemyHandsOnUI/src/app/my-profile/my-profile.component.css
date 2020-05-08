@@ -1,0 +1,31 @@
+.middle-box {
+    padding: 5px;
+    justify-content: center;
+}
+
+.custom-card-container {
+    margin-top: auto;
+    height: -webkit-fill-available;
+}
+.custom-card {
+    padding: 5px;
+}
+
+.profile {
+    background-color: #b82601;
+}
+
+.profile-router {
+    background-color: #F9aa33;
+}
+
+.user-name-caption {
+    font-family: monospace;
+    font-size: xxx-large;
+    font-weight: 900;
+    color: black;
+}
+
+.example-full-width {
+    width: 100%;
+  }
