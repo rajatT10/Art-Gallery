@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f571f132-2246-4b06-bab0-20aa0cdb5c04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bU6XHaqVonW2KTJbG8zNT3eYFB" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.artgallery.artgallery" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ArtGalleryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.artgallery.artgallery.ArtGalleryApplication" />
+      <module name="art-gallery" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArtGalleryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f571f132-2246-4b06-bab0-20aa0cdb5c04" name="Default Changelist" comment="" />
+      <created>1588674362238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588674362238</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1588700747969">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1588700747969" />
+    <state x="290" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588679334952">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="290" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1588679334952" />
+    <state x="479" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588679336615">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="479" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1588679336615" />
+    <state width="661" height="227" key="GridCell.Tab.0.bottom" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state width="661" height="227" key="GridCell.Tab.0.center" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state width="661" height="227" key="GridCell.Tab.0.left" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state width="661" height="227" key="GridCell.Tab.0.right" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state width="661" height="227" key="GridCell.Tab.1.bottom" timestamp="1588969358042">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588969358042" />
+    <state width="661" height="227" key="GridCell.Tab.1.center" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state width="661" height="227" key="GridCell.Tab.1.left" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state width="661" height="227" key="GridCell.Tab.1.right" timestamp="1588969358027">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588969358027" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1588700102751">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1588700102751" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588968571843">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1588968571843" />
+    <state x="252" y="97" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1588678745034">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="252" y="97" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1588678745034" />
+    <state x="390" y="73" width="585" height="592" key="find.popup" timestamp="1588676837795">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="390" y="73" width="585" height="592" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1588676837795" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1588968560420">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1588968560420" />
+  </component>
+</project>
