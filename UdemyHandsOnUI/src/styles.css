@@ -287,9 +287,17 @@ svg#clouds {
   }
 }
 
+@media screen and (max-width: 400px) {
 .feed-box {
-  height: 500px;
+  height: 600px;
 }
+}
+
+@media screen and (min-width: 800px) {
+  .feed-box {
+    height: 700px;
+  }
+  }
 
 ::-webkit-scrollbar {
   background: #b82601;
