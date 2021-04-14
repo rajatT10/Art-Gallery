@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <style>
+        .game-cell {
+            font-size: 100px;
+            border-style: solid;
+            text-align: center;
+            width: 150px;
+            height: 150px;
+        }
+
+        .score-cell {
+            width: 50px;
+            height: 50px;
+            border-style: solid;
+            text-align: center;
+        }
+
+        .game-status {
+            color: red;
+            font-size: 25px;
+        }
+    </style>
+
+    <title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+    <section style="margin-left: 50px;display: flex;">
+        <div>
+            <h2>Tic-Tac-Toe</h2>
+            <table class="table table-bordered" style="width: 500px;height: 500px;margin-top: 50px;">
+                <tbody>
+                    <tr>
+                        <td class="game-cell"></td>
+                        <td class="game-cell"></td>
+                        <td class="game-cell"></td>
+                    </tr>
+                    <tr>
+                        <td class="game-cell"></td>
+                        <td class="game-cell"></td>
+                        <td class="game-cell"></td>
+                    </tr>
+                    <tr>
+                        <td class="game-cell"></td>
+                        <td class="game-cell"></td>
+                        <td class="game-cell"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2 style="text-align: center;">Score Board</h2>
+            <table class="table table-bordered" style="width: 500px;height: 100px;margin-top: 50px;">
+                <tbody>
+                    <tr>
+                        <td class="score-cell">Player X</td>
+                        <td class="score-cell">Player O</td>
+                    </tr>
+                    <tr>
+                        <td class="score-cell playerX"></td>
+                        <td class="score-cell playerO"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <h5 class="game-status"></h5>
+    <button class="restart-game" onclick="resetGame()">Reset</button>
+    <script>
+        //This is initializing game matrix
+        let gameMatrix = ["", "", "", "", "", "", "", "", ""];
+        //Start with a player X. Another Player O
+        let currentPlayer = "X";
+        let gameStatus = document.querySelector(".game-status");
+        let roundWon = false;
+        let playerXPoints = 0;
+        let playerOPoints = 0;
+
+
+        //Winning Status
+        const winningMessage = () => {
+            gameStatus.style.color = "green";
+            gameStatus.innerHTML = `Player ${currentPlayer} has won`;
+        }
+
+        //Draw Message
+        const drawMessage = () => {
+            gameStatus.style.color = "blue";
+            gameStatus.innerHTML = `Game draw`;
+        }
+        //Message to show the current player
+        const currPlayerTurn = () => {
+            gameStatus.style.color = "red";
+            gameStatus.innerHTML = `Player ${currentPlayer}\'s turn...`;
+        }
+
+        function resetGame() {
+            roundWon = false;
+            document.querySelectorAll(".game-cell").forEach((cell, index) => {
+                cell.innerHTML = '';
+            });
+            currentPlayer = 'X';
+            currPlayerTurn();
+            gameMatrix = ["", "", "", "", "", "", "", "", ""];
+            console.log(gameMatrix);
+            numberOfTurnCompleted = 0;
+        }
+
+        //First chance of X
+        currPlayerTurn();
+        //Define the winning situations
+        const winningMatrix = [
+            [0, 1, 2],
+            [3, 4, 5],
+            [6, 7, 8],
+            [0, 3, 6],
+            [1, 4, 7],
+            [2, 5, 8],
+            [0, 4, 8],
+            [2, 4, 6]
+        ];
+
+        let numberOfTurnCompleted = 0;
+
+        function checkWinning() {
+            winningMatrix.forEach(eachWin => {
+                let one = gameMatrix[eachWin[0]];
+                let two = gameMatrix[eachWin[1]];
+                let three = gameMatrix[eachWin[2]];
+                if (one != "" && two != "" && three != "" && one == two && two == three) {
+                    roundWon = true;
+                    if (one == 'X') playerXPoints++; else playerOPoints++;
+                }
+            });
+        }
+
+        function updateScoreBoard() {
+            document.querySelector(".playerX").innerHTML = playerXPoints;
+            document.querySelector(".playerO").innerHTML = playerOPoints;
+        }
+
+        function handleClickEvents(cell, index) {
+            cell.innerHTML = currentPlayer;
+            numberOfTurnCompleted++;
+            gameMatrix[index] = currentPlayer;
+            checkWinning();
+            if (numberOfTurnCompleted == 9) {
+                drawMessage();
+                window.setTimeout(resetGame(), 5000);
+            } else if (roundWon) {
+                winningMessage();
+                updateScoreBoard();
+            } else if (currentPlayer == 'X') {
+                currentPlayer = 'O';
+                currPlayerTurn();
+            } else {
+                currentPlayer = 'X';
+                currPlayerTurn();
+            }
+        }
+
+
+        document.querySelectorAll(".game-cell").forEach((cell, index) => {
+            cell.addEventListener('click', () => {
+                handleClickEvents(cell, index);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
